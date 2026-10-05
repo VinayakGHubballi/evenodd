@@ -1,5 +1,9 @@
-def checkNo(num):
+num = int(input("Enter a number: "))
+
+def check_even_odd(num):
     if num % 2 == 0:
-        return "Even number"
+        return "Even"
     else:
-        return "Odd number"
+        return "Odd"
+
+print(check_even_odd(num))
