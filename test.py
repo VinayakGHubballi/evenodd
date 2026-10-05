@@ -1,9 +1,10 @@
-def check_even_odd(num):
-    if num % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
+def addit(a, b):
+    return a+b
 
-print(check_even_odd(10))
+if __name__ == "__main__":
+    a = int(input("Enter value a: ")
+    b = int(input("Enter value b: ")
+
+    print("Addition: ", addit(a,b))
 
 
