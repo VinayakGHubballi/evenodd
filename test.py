@@ -4,4 +4,7 @@ def check_even_odd(num):
     else:
         return "Odd"
 
+num = int(input("Enter num"))
+print(check_even_odd(num))
+
 
