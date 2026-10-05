@@ -1,8 +1,11 @@
-def calculate_add(a, b):
-    return a+b
+import sys
+
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
 
 if __name__ == "__main__":
-    a= int(input("Enter value a: "))
-    b= int(input("Enter value b: "))
-
-    print("Addition is: ",calculate_add(a,b) )
+    num = int(sys.argv[1])
+    print("Result:", check_even_odd(num))
