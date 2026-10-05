@@ -1,7 +1,7 @@
-from test import checkNo
+from test import check_even_odd
 
 def test_even():
-    assert checkNo(10) == "Even"
+    assert check_even_odd(10) == "Even"
 
 def test_odd():
-    assert checkNo(13) == "Odd"
+    assert check_even_odd(13) == "Odd"
