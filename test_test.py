@@ -1,7 +1,7 @@
-from test import check_even_odd
+from test import addit
 
-def test_even():
-    assert check_even_odd(10) == "Even"
+def test_pos():
+    assert addit(10, 20) == 30
 
-def test_odd():
-    assert check_even_odd(7) == "Odd"
+def test_zero():
+    assert check_even_odd(10,0) == 10
