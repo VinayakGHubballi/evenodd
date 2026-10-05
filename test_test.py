@@ -1,7 +1,10 @@
-from test import check_even_odd
+from add import calculate_add
 
-def test_even():
-    assert check_even_odd(10) == "Even"
+def test_positive_no():
+    assert calculate_add(20,40) == 60
 
-def test_odd():
-    assert check_even_odd(13) == "Odd"
+def test_zero():
+    assert calculate_add(50, 0) == 50
+
+def test_negative():
+    assert calculate_add(-50, 10) == -40
