@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+
 
 def check_even_odd(num):
     if num % 2 == 0:
@@ -6,4 +6,6 @@ def check_even_odd(num):
     else:
         return "Odd"
 
-print(check_even_odd(num))
+if __name__ == "__main__":
+    num = int(input("Enter a num"))
+    print(check_even_odd(num))
