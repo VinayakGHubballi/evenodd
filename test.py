@@ -1,12 +1,9 @@
-import sys
+def evenandodd(num):
+    if num%2 == 0:
+        return "Even"
+    else:
+        return "Odd"
 
-def addit(a, b):
-    return a+b
-
-if __name__ == "__main__":
-    a = int(sys.argv[1])
-    b = int(sys.argv[2])
-
-    print("Addition: ", addit(a,b))
+print(evenandodd(23))
 
 
