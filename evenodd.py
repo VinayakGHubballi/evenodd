@@ -1,3 +1,5 @@
+import sys
+
 def evenandodd(num):
     if num%2 == 0:
         return "Even"
@@ -5,7 +7,7 @@ def evenandodd(num):
         return "Odd"
 
 if __name__ == "__main__":
-    num = int(input("Enter value num: "))
+    num = int(sys.argv[1])
 
     print("Even or odd: ", evenandodd(num))
 
