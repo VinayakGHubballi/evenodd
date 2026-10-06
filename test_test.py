@@ -1,4 +1,4 @@
-from evenandodd import evenandodd
+from evenodd import evenandodd
 
 def test_even():
     assert evenandodd(12) == "Even"
