@@ -1,7 +1,4 @@
-from evenodd import evenandodd
+from evenodd import simpl
 
-def test_even():
-    assert evenandodd(12) == "Even"
-
-def test_odd():
-    assert evenandodd(13) == "Odd"
+def test_SI():
+    assert simpl(1000,8,12) == 960
