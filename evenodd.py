@@ -1,13 +1,12 @@
 import sys
 
-def evenandodd(num):
-    if num%2 == 0:
-        return "Even"
-    else:
-        return "Odd"
+def simpl(pr, intr, tm):
+    return (pr*intr*tm)/100
 
 if __name__ == "__main__":
-    num = int(sys.argv[1])
+    p = int(sys.argv[1])
+    i = float(sys.argv[2])
+    t = int(sys.argv[3])
 
-    print("Even or odd: ", evenandodd(num))
+    print("SI: ", simpl(p,i,t))
 
